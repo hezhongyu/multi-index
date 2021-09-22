@@ -11,7 +11,8 @@ import pandas as pd
 
 data_path = '../../data/multi-index/data_precessed.csv'
 data = pd.read_csv(data_path)
-df.iloc[:, ]
+print(data)
+# df.iloc[:, ]
 
 # data = sns.load_dataset('iris')
 # df = data.iloc[:, :4]  # 取前四列数据
@@ -24,9 +25,9 @@ df.iloc[:, ]
 # result5 = df.corr()
 
 # print(result5)
-plt.rcParams['font.sans-serif'] = 'SimHei'
-plt.rcParams['axes.unicode_minus'] = False  # 设置正常显示符号
-
-figure, ax = plt.subplots(figsize=(12, 12))
-sns.heatmap(data.corr(), square=True, annot=True, ax=ax)
-plt.show()
+# plt.rcParams['font.sans-serif'] = 'SimHei'
+# plt.rcParams['axes.unicode_minus'] = False  # 设置正常显示符号
+#
+# figure, ax = plt.subplots(figsize=(12, 12))
+# sns.heatmap(data.corr(), square=True, annot=True, ax=ax)
+# plt.show()
